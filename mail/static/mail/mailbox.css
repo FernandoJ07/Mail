@@ -1,0 +1,38 @@
+/*postbox cards*/
+
+.divParent{
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	box-shadow: 2px 1px 5px rgba(0,0,0,0.2), -0.2px -0.5px 5px rgba(0,0,0,0.1) ;
+}
+
+.child1, .child2, .child3{
+	margin: 0px;
+	padding: 0px;
+	width: 200px;
+	margin-bottom: 0;
+	display: inline-block;
+}
+.child2{
+	width: 60%;
+	margin: auto;
+	padding-left: 30px;
+	border-left: 2px solid rgba(0, 0, 0, 0.5) ;
+}
+
+.child3{
+	position: relative;
+	float: right;
+}
+
+#sender, #date, #subject, #recipients{
+	margin: 0;
+}
+
+#date{
+	margin-top: 3px;
+}
+
+
